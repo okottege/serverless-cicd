@@ -11,7 +11,7 @@ phases:
       - echo Installing source npm packages
       - npm install
       - echo Trying to see if we can talk to AWS
-      - curl -s "http://nib-kaos-secure-nib-aws-map-ap-southeast-2.s3-website-ap-southeast-2.amazonaws.com/master/ap-southeast-2/kaos/secure/deployer_role_arn
+      - curl -s "http://nib-kaos-secure-nib-aws-map-ap-southeast-2.s3-website-ap-southeast-2.amazonaws.com/master/ap-southeast-2/kaos/secure/deployer_role_arn"
 
   build:
     commands:
